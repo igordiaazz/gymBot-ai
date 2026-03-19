@@ -8,11 +8,11 @@ O diferencial arquitetônico deste sistema é a capacidade de injetar o contexto
 ## Tecnologias e Arquitetura
 A stack foi rigorosamente selecionada com foco em performance assíncrona, manutenibilidade e integração fluida com ferramentas modernas de Inteligência Artificial:
 
-* [cite_start]**Backend:** FastAPI e Uvicorn para roteamento e processamento assíncrono de webhooks.
-* [cite_start]**Orquestração de IA:** LangChain Core e LangChain Google GenAI (Gemini 1.5 Pro) para formatação de prompts dinâmicos e geração de texto.
-* [cite_start]**Banco de Dados:** SQLite (focado em desenvolvimento ágil) manipulado via ORM SQLAlchemy.
-* [cite_start]**Integrações Externas:** HTTPX para requisições assíncronas direcionadas à Meta Graph API.
-* [cite_start]**Segurança:** Python-dotenv para isolamento estrito de credenciais de ambiente.
+**Backend:** FastAPI e Uvicorn para roteamento e processamento assíncrono de webhooks.
+**Orquestração de IA:** LangChain Core e LangChain Google GenAI (Gemini 1.5 Pro) para formatação de prompts dinâmicos e geração de texto.
+**Banco de Dados:** SQLite (focado em desenvolvimento ágil) manipulado via ORM SQLAlchemy.
+**Integrações Externas:** HTTPX para requisições assíncronas direcionadas à Meta Graph API.
+**Segurança:** Python-dotenv para isolamento estrito de credenciais de ambiente.
 
 ## Funcionalidades Principais
 1. **Recebimento e Processamento Assíncrono:** Webhooks configurados para receber payloads da Meta, extraindo e validando de forma segura o número do remetente e o corpo da mensagem.
