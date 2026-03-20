@@ -36,8 +36,8 @@ Certifique-se de possuir o Python 3.10 ou superior instalado em sua máquina.
 ### 2. Clonar e Configurar o Ambiente
 Clone este repositório e crie um ambiente virtual para isolar as dependências:
 ```bash
-git clone <URL_DO_SEU_REPOSITORIO>
-cd <NOME_DA_PASTA>
+git clone https://github.com/igordiaazz/gymBot-ai.git
+cd whatsappGymBot
 python -m venv venv
 ```
 
